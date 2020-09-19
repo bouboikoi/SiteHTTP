@@ -1,0 +1,81 @@
+main {
+}
+
+.services  {
+    display: flex;
+    justify-content: space-around;
+    border : 2px groove black;
+}
+
+.services p {
+    text-align: center;
+}
+
+.ourTeam {
+    text-align: center;
+}
+
+.ourTeam2 {
+    text-align: center;
+}
+
+.CPE_photo {
+    display: inline-table;
+    justify-content: center;
+    border : 2px groove black;
+    width: 33%;
+}
+
+.Professeur_photo {
+    display: inline-table;
+    justify-content: center;
+    border : 2px groove black;
+    width: 33%;
+}
+
+.Directeur_photo {
+    display: inline-table;
+    justify-content: center;
+    border : 2px groove black;
+    width: 33%;
+}
+
+.CPE_desc {
+    display: inline-table;
+    justify-content: center;
+    border : 2px groove black;
+    width: 33%;
+}
+
+.Professeur_desc {
+    display: inline-table;
+    justify-content: center;
+    border : 2px groove black;
+    width: 33%;
+}
+
+.Directeur_desc {
+    display: inline-table;
+    justify-content: center;
+    border : 2px groove black;
+    width: 33%;
+}
+
+.portfolio {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.photo2 {
+    padding: 2px;
+}
+
+.GPS {
+    float: left;
+    width: 50%;
+}
+
+.info {
+    border : 3px groove black;
+}

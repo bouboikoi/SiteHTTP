@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    border : 2px groove black;
+}
+
+.logo img{
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+}
+
+.photo img{
+    padding-top: 4px;
+}
+
+nav > ul li {
+    display: inline;
+    padding: 5px;
+}
+
+nav > ul a {
+    display: inline;
+    color: black;
+    text-align: center;
+}
