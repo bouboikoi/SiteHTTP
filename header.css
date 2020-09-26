@@ -1,26 +1,19 @@
 header{
-    display: flex;
-    justify-content: space-between;
-    border : 2px groove black;
+    display: grid;
+    max-height: 150px;
 }
 
-.logo img{
-    padding: 5px;
-    width: 200px;
-    height: 100px;
+.hautDePage{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.photo img{
-    padding-top: 4px;
+.hautDePage nav {
+    justify-self: right;
+    align-self: center;
 }
 
-nav > ul li {
-    display: inline;
-    padding: 5px;
-}
-
-nav > ul a {
-    display: inline;
-    color: black;
-    text-align: center;
+.hautDePage li {
+    font: black;
+    list-style-type: none;
 }

@@ -1,81 +1,87 @@
-main {
+body {
+    display: grid;
+    margin: 0%;
 }
 
-.services  {
-    display: flex;
-    justify-content: space-around;
-    border : 2px groove black;
+.conteneur {
+    display: grid;
+}
+
+.slide {
+    display: grid;
+    max-height: 400px;
+    border: 1px solid black;
+}
+
+.services {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
 }
 
 .services p {
-    text-align: center;
+    margin: 0;
+}
+
+.services img {
+    border-bottom: 3px solid black;
+    justify-self: center;
+    align-self: center;
 }
 
 .ourTeam {
-    text-align: center;
+    display: grid;
+    border: 1px solid black;
 }
 
-.ourTeam2 {
-    text-align: center;
+.ourTeamImg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.ourTeamImg img{
+    border: 1px solid black;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: 200px;
+    border: 0.5px solid black;
 }
 
-.CPE_photo {
-    display: inline-table;
-    justify-content: center;
-    border : 2px groove black;
-    width: 33%;
+.ourTeamText {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-.Professeur_photo {
-    display: inline-table;
-    justify-content: center;
-    border : 2px groove black;
-    width: 33%;
+.ourTeamText p{
+    border: 0.5px solid black;
+    margin: 0;
 }
 
-.Directeur_photo {
-    display: inline-table;
-    justify-content: center;
-    border : 2px groove black;
-    width: 33%;
-}
-
-.CPE_desc {
-    display: inline-table;
-    justify-content: center;
-    border : 2px groove black;
-    width: 33%;
-}
-
-.Professeur_desc {
-    display: inline-table;
-    justify-content: center;
-    border : 2px groove black;
-    width: 33%;
-}
-
-.Directeur_desc {
-    display: inline-table;
-    justify-content: center;
-    border : 2px groove black;
-    width: 33%;
+.avantFooter {
+    display: grid;
+    grid-template-areas: 
+    "portfolio photo"
+    "plan contactUs"
+    ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 363px 363px;
 }
 
 .portfolio {
-    float: left;
-    width: 50%;
-    text-align: center;
+    border: 0.5px solid black;
 }
 
-.photo2 {
-    padding: 2px;
+.photo img{
+    border: 0.5px solid black;
+    height: 362px;
+    width: 100%;
 }
 
-.GPS {
-    float: left;
-    width: 50%;
+.plan {
+    border: 0.5px solid black;
 }
 
-.info {
-    border : 3px groove black;
+.contactUS{
+    border: 0.5px solid black;
 }
